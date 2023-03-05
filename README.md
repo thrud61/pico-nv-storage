@@ -1,2 +1,2 @@
 # pico-nv-storage
-project to help with using flash on the RPi Pico as non-volatile storage safely
+project to help with using EEProm on the RPi Pico as non-volatile storage
