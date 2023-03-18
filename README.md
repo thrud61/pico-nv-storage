@@ -5,13 +5,33 @@ I tried using the internal pull up resitors on the SDA/SCL for the I2C, but it o
 
 
 Uses I2C0 mapped to GPIO 12 and 13 on the Pico.
-
-Pico          24LCxx
-----          ------
-GPIO 12   -   SDA      
-GPIO 13   -   SCL
-VCC       -   VCC
-GND       -   GND
-GND       -   WP
-VCC     2k2   SDA
-VCC     2k2   SCL
+<br>
+<table>
+<tr>
+  <td>Pico</td><td></td><td>24LCxx</td>
+</tr>
+<tr>
+  <td></td><td></td><td></td>
+</tr>
+<tr>
+  <td>GPIO 12</td><td>-</td><td>SDA</td>
+</tr>
+<tr>
+  <td>GPIO 13</td><td>-</td><td>SCL</td>
+</tr>
+<tr>
+  <td>VCC</td><td>-</td><td>VCC</td>
+</tr>
+<tr>
+  <td>GND</td><td>-</td><td>GND</td>
+</tr>
+<tr>
+  <td>GND</td><td>-</td><td>WP</td>
+</tr>
+<tr>
+  <td>VCC</td><td>2k2</td><td>SDA</td>
+</tr>
+<tr>
+  <td>VCC</td><td>2k2</td><td>SCL</td>
+</tr>
+</table>
