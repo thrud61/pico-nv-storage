@@ -17,7 +17,7 @@ NV_Storage NV;
 // structure to store the non-volatile data
 // can't use pointers as they probably wont work
 // so no heap, or char * (which might work
-// until on literals, until the code base changes).
+// on literals, until the code base changes).
 struct NV_struct
 {
   bool loaded;
