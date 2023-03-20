@@ -85,7 +85,7 @@ bool _NV::NV_Storage::write_byte(uint16_t addr)
   return true;
 }
 
-// write the entire cache to the eeprom
+// write a page of cache to the eeprom
 bool _NV::NV_Storage::write_page(uint16_t addr)
 {
   uint8_t control;
