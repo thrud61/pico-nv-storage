@@ -12,7 +12,7 @@
 #include <string.h>
 #include "hardware/i2c.h"
 
-
+ 
 #include "pico/stdlib.h"
 
 using namespace _NV;
@@ -28,6 +28,10 @@ _NV::NV_Storage::NV_Storage(void)
   // set up for I2C0 on GPIO 12/13
   gpio_set_function(12, GPIO_FUNC_I2C);
   gpio_set_function(13, GPIO_FUNC_I2C);
+  gpio_init(14);
+  gpio_set_dir(14, GPIO_OUT);
+  gpio_put(14, 1);
+  
   gpio_pull_up(12);
   gpio_pull_up(13);
   sleep_ms(100);
