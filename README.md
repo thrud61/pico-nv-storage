@@ -47,3 +47,5 @@ The class provides several methods to read and write data to the EEPROMs. The fu
 The code also defines some constants such as the maximum size of data that can be stored in the EEPROM (NV_MAX_SIZE), the delay between write operations (NV_WRITE_DELAY), and the device address of the EEPROM (NV_DEVICE_ADDR).
 
 Overall, the code provides a simple and efficient way to interface with the 24LCxx series EEPROMs using the Raspberry Pi Pico board.
+
+Use Arduino IDE to build.
